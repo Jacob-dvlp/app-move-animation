@@ -8,6 +8,10 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
+  late final PageController pageController;
+  late final PageController innerPage;
+  final int currentIndex = 0;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
